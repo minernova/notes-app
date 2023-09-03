@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 const port = 3000;
 //db
-let notes=[];
+let notes=["hii"];
 app.get("/", function (req, res) {
   res.json(notes);
 });
